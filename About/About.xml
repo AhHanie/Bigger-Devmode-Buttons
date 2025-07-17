@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Bigger Devmode Buttons</name>
+  <author>Sk</author>
+	<supportedVersions>
+    <li>1.6</li>
+	</supportedVersions>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+	<packageId>sk.biggerdevmodebuttons</packageId>
+	<description>Modify Devmode action buttons to be wider</description>
+  <modVersion>1.0</modVersion>
+</ModMetaData>

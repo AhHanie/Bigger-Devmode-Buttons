@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bigger Devmode Buttons", "Bigger Devmode Buttons.csproj", "{E5F0E450-3D7F-46E3-8B8E-F70F78E80171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "..\..\..\Rimworld Source Code\Assembly-CSharp.csproj", "{099C3C21-09B7-F386-6DDE-1D91E1CF87F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5F0E450-3D7F-46E3-8B8E-F70F78E80171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F0E450-3D7F-46E3-8B8E-F70F78E80171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F0E450-3D7F-46E3-8B8E-F70F78E80171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F0E450-3D7F-46E3-8B8E-F70F78E80171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099C3C21-09B7-F386-6DDE-1D91E1CF87F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099C3C21-09B7-F386-6DDE-1D91E1CF87F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099C3C21-09B7-F386-6DDE-1D91E1CF87F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099C3C21-09B7-F386-6DDE-1D91E1CF87F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4087BD62-8632-4A09-89A0-78D4FB052F23}
+	EndGlobalSection
+EndGlobal
