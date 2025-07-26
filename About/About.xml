@@ -17,5 +17,5 @@
   </modDependencies>
 	<packageId>sk.biggerdevmodebuttons</packageId>
 	<description>Modify Devmode action buttons to be wider</description>
-  <modVersion>1.0</modVersion>
+  <modVersion>1.0.1</modVersion>
 </ModMetaData>

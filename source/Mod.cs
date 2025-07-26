@@ -6,13 +6,12 @@ namespace SK.BiggerDevmodeButtons
 {
     public class Mod : Verse.Mod
     {
-        public static bool SHOULD_PRINT_LOG = false;
         public Mod(ModContentPack content) : base(content)
         {
             Harmony instance = new Harmony("rimworld.sk.biggerdevmodebuttons");
             HarmonyPatcher.instance = instance;
 
-            LongEventHandler.ExecuteWhenFinished(Init);
+            LongEventHandler.QueueLongEvent(Init, "SK.BiggerDevmodeButtons", true, null);
         }
 
         public override string SettingsCategory()

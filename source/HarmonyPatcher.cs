@@ -10,12 +10,6 @@ namespace SK.BiggerDevmodeButtons
         public static Harmony instance;
         public static void PatchVanillaMethods()
         {
-            if (instance == null)
-            {
-                Logger.WriteToHarmonyFile("Missing harmony instance");
-                return;
-            }
-
             // Patch DebugTabMenu ListOptions
             MethodInfo listOptionsMethod = AccessTools.Method(typeof(DebugTabMenu), "ListOptions");
             HarmonyMethod listOptionsPrefixPatchMethod = new HarmonyMethod(typeof(Patches).GetMethod("ListOptionsPrefix"));
